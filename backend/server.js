@@ -7,7 +7,7 @@ import productRouter from "./routes/product.routes.js";
 dotenv.config(); //to access the env file
 
 const app = express();
-const PORT = process.env.PORT || 500;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json()); //allow us to accept JSON data in the req.body
 app.use(cors());
